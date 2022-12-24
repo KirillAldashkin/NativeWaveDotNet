@@ -20,6 +20,7 @@ public class MainActivity : VRActivity
 {
     protected override void OnCreate(Bundle? savedInstanceState)
     {
+        VRInitializer.Init();
         base.OnCreate(savedInstanceState);
     }
 }
