@@ -1,0 +1,16 @@
+﻿<metadata>
+	<attr path="/api/package[@name='com.htc.vr.core.jni']/class[@name='LockFreeRingBuffer.Builder']/method[@name='build' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"
+		  name="managedReturn">
+		Java.Lang.Object
+	</attr>
+	<attr path="/api/package[@name='com.htc.vr.core.jni']/class[@name='LockFreeSingleBuffer.Builder']/method[@name='build' and count(parameter)=1 and parameter[1][@type='java.nio.ByteBuffer']]"
+		  name="managedReturn">
+		Java.Lang.Object
+	</attr>
+	<remove-node path="/api/package[@name='com.htc.vr.sdk.pluginkit']/class[@name='VRDevice']/method[@name='setupConfig' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.htc.vr.core.jni']/class[@name='LockFreeRingBuffer']/method[@name='finalize' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.htc.vr.core']/class[@name='EventLink']/method[@name='finalize' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.htc.vr.core.jni']/class[@name='LockFreeSingleBuffer']/method[@name='finalize' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.htc.vr.core.jni']/class[@name='SharedBuffer']/method[@name='finalize' and count(parameter)=0]"/>
+	<remove-node path="/api/package[@name='com.htc.vr.core']/class[@name='StateLink']/method[@name='finalize' and count(parameter)=0]"/>
+</metadata>
