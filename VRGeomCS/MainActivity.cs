@@ -20,10 +20,6 @@ public class MainActivity : VRActivity
 {
     protected override void OnCreate(Bundle? savedInstanceState)
     {
-        var lib = NativeLibrary.Load("libwvr_api");
-        var method = NativeLibrary.GetExport(lib, "WVR_RenderInit");
-        NativeLibrary.Free(lib);
-        VRInitializer.Init();
         base.OnCreate(savedInstanceState);
     }
 }
